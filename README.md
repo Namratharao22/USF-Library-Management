@@ -52,7 +52,6 @@ class Staff : Person
     }
 
 }
-// Book class
 class Book
 {
     public string Title { get; set; }
