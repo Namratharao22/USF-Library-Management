@@ -1,15 +1,13 @@
-
-
-class Student : Person
+class Staff : Person
 {
-    public string Major { get; set; }
-    public int GraduationYear { get; set; }
+    public string Position { get; set; }
+    public string Department { get; set; }
 
-    public Student(string name, string email, string id, string major, int graduationYear)
+    public Staff(string name, string email, string id, string position, string department)
         : base(name, email, id)
     {
-        Major = major;
-        GraduationYear = graduationYear;
+        Position = position;
+        Department = department;
     }
 }
 
