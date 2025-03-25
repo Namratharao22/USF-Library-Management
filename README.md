@@ -63,15 +63,15 @@ class Program
         // Adding students
         Student Namratha = new Student("Namratha", "Namratha@usf.edu", "S001", "Business Analytics", 2026);
         Student Ankitha = new Student("Ankitha", "Atripaty@usf.edu", "S002", "Information Systems", 2025);
-        Student Vaishnavi = new Student("Vaishnavi", "Atripaty@usf.edu", "S002", "Information Systems", 2025);
-        Student Shubham = new Student("Shubham", "Atripaty@usf.edu", "S002", "Information Systems", 2025);
+        Student Vaishnavi = new Student("Vaishnavi", "vaishnavi@usf.edu", "S002", "Information Systems", 2025);
+        Student Shubham = new Student("Subham", "subham@usf.edu", "S002", "Information Systems", 2025);
         library.AddPatron(Namratha);
         library.AddPatron(Ankitha);
         library.AddPatron(Vaishnavi);
         library.AddPatron(Shubham);
 
         // Adding staff
-        Staff Shubhamgill = new Staff("Shubham Gill", "shubam@usf.edu", "ST001", "Librarian", "Library Services");
+        Staff Shubhamgill = new Staff("Subham", "subam@usf.edu", "ST001", "Librarian", "Library Services");
         library.AddPatron(Shubhamgill);
 
         // Display initial books and patrons
