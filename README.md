@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// Base class
+
 class Person
 {
     public string Name { get; set; }
@@ -16,7 +16,7 @@ class Person
     }
 }
 
-// Student class inheriting from Person
+
 class Student : Person
 {
     public string Major { get; set; }
